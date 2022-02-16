@@ -127,8 +127,9 @@ for input_file in input_files:
 
         page_blocks = [block for i, block in enumerate(page_blocks) if i > end_of_header_index]
 
-        if len(page_blocks) == 1:
-            continue
+        print(header_sets)
+        if len(header_sets) <= page:
+            break
 
         cell_pos = 0
         i = 0
