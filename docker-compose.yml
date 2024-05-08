@@ -1,0 +1,8 @@
+services:
+  pdfconvert:
+    image: jsutlovic/rbc-statement-converter
+    build: .
+    volumes:
+      - ".:/app"
+    environment:
+      TERM: xterm-256color

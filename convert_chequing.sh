@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -xe
+
 # define output filename
 OUTPUT_FILE='transactions_chequing.csv'
 
